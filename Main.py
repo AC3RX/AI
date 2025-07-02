@@ -1,7 +1,7 @@
-# name 
+
 name = str(input("Hey whats good? what is ur name?"))
 
-print(f"nice to meet ya {name}")
+print(f"Nice to meet you {name}")
 mood = str(input("how are you feeling?").lower())
 
 if mood == "good": 

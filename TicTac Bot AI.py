@@ -78,7 +78,7 @@ def minimax(board, depth, maximizing_player):
 
 
 def ai_move(board):
-    return minimax(board, 0, True)
+    return minimax(board, 0, True) 
 
 
 def number_to_position(number):
@@ -125,4 +125,4 @@ def play_game():
 
 if __name__ == "__main__":
     play_game()
-
+    
